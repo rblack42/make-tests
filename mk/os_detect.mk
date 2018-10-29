@@ -9,3 +9,4 @@ else
 endif
 
 include mk/cppproj.mk
+include mk\cpplint.mk
