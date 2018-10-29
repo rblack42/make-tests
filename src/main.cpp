@@ -1,6 +1,9 @@
-#include <iostream>
+// Copyright 2018 Roie R. Black
+
+#include "message.h"
 
 int main(void) {
-    std::cout << "make demo\n";
+    message();
 }
+
 
