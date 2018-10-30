@@ -1,0 +1,16 @@
+language: cpp
+compiler: g++
+
+before install:
+  - sudo apt-get update -qq
+
+install:
+  - sudo pip install cpplint
+
+script:
+  - make clean
+  - make
+  - make test
+  - make lint
+
+

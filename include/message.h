@@ -1,4 +1,6 @@
 // Copyright 2018 Roie R. Black
 #pragma once
 
-void message(void);
+#include<string>
+
+std::string  message(void);
