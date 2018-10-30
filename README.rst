@@ -6,7 +6,7 @@ Modular Makefiles
 :Date: Oct 21, 2018
 :Website: http://rblack42.github.io/make-tests
 
-..  image:: https://travis-ci.org/rblack42/imake-tests.svg?branch=master
+..  image:: https://travis-ci.org/rblack42/make-tests.svg?branch=master
     :alt: Build badge from Travis-CI
 
 ..  image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
