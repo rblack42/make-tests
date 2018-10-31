@@ -14,6 +14,6 @@ def main():
             if m:
                 item = m.group(1).strip()
                 defn = m.group(2).strip()
-                print("\033[36m%-30s\033[0m %s" %(item,defn))
+                print("%-30s %s" %(item,defn))
 
 main()
