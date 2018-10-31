@@ -1,8 +1,10 @@
 TSTTGT	:= testapp
 
 USRCS   := $(wildcard src/*.cpp)
-LSRCS   := $(wildcard lib/*.cpp)
+LSRCS   := $(shell python mk/pyfind.py lib .cpp)
 TSRCS	:= $(wildcard tests/*.cpp)
+SRCS	:= $(USRCS) $(LSRCS) $(TSRCS)
+HDRS	:= $(wildcard include *.h)
 
 UOBJS   := $(USRCS:.cpp=.o)
 LOBJS   := $(LSRCS:.cpp=.o)
